@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.input {
+  height: 2em;
+  width: 20em;
+  font-size: 1.1em;
+}
+.strength-checker {
+  height: 1em;
+  border-radius: 20px;
+  display: inline;
+  margin-top: 1em;
+  transition: 1s ease-out;
+  justify-content: flex-start;
+}
