@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 500px; 
+    width: fit-content; 
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+div.container > .row:nth-child(2){
+    justify-content: space-between;
+}
+.box{
+    height:50px;
+    width:50px;
+    border: 1px solid black;
+    margin:2px;
+}
+.green{
+    background-color: green;
+    transition-delay: 200ms;
+}
